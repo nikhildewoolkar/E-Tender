@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/res1tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="SELECTED TENDER APPLICATION."
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/roadtv"
+        android:text="Road"
+        android:textColor="#000"
+        android:layout_below="@id/res1tv"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/roadres1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="Category"
+        android:layout_marginTop="120dp"
+        android:textColor="#000" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colonytv"
+        android:text="Colony"
+        android:textColor="#000"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/colonyres1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="Category"
+        android:layout_marginTop="170dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bridgetv"
+        android:text="Bridge"
+        android:textColor="#000"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/bridgeres1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="Category"
+        android:layout_marginTop="220dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buildingtv"
+        android:text="Building"
+        android:textColor="#000"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/buildigres1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="Category"
+        android:layout_marginTop="270dp"
+        android:textColor="#000" />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/res2tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/buildingtv"
+        android:layout_marginLeft="10dp"
+        android:text="BACKUP TENDER APPLICATION."
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/roadtv1"
+        android:text="Road"
+        android:textColor="#000"
+        android:layout_below="@id/res2tv"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+
+    <TextView
+        android:id="@+id/roadres21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="Category"
+        android:layout_marginTop="400dp"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colonytv1"
+        android:text="Colony"
+        android:textColor="#000"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="10dp"/>
+
+
+
+    <TextView
+        android:id="@+id/colonyres21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="Category"
+        android:layout_marginTop="450dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bridgetv1"
+        android:text="Bridge"
+        android:textColor="#000"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:id="@+id/bridgeres21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="Category"
+        android:layout_marginTop="500dp"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buildingtv1"
+        android:text="Building"
+        android:textColor="#000"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/buildigres21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="Category"
+        android:layout_marginTop="550dp"
+        android:textColor="#000" />
+</RelativeLayout>

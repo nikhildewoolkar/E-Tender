@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/RadioGroup"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:hint="Choose a category"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:textColor="#000" />
+
+<RadioButton
+    android:id="@+id/opt1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textView"
+    android:layout_marginTop="45dp"
+    android:layout_marginLeft="20dp"
+    android:text="Flyover"/>
+
+
+    <RadioButton
+        android:id="@+id/opt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opt1"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="Bridge"/>
+
+    <RadioButton
+        android:id="@+id/opt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opt2"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="Building"/>
+
+    <RadioButton
+        android:id="@+id/opt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opt3"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="Road"/>
+
+    <RadioButton
+        android:id="@+id/opt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opt4"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="Colony"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opt5"
+        android:background="@drawable/btn_back"
+        android:textColor="#FFF"
+        android:id="@+id/next"
+        android:layout_marginTop="100dp"
+        android:padding="5dp"
+        android:layout_marginLeft="250dp"
+        android:text="Next"/>
+</RadioGroup>

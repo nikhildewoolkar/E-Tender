@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "928092404540",
+    "firebase_url": "https://etender-71029.firebaseio.com",
+    "project_id": "etender-71029",
+    "storage_bucket": "etender-71029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928092404540:android:91b5e5b62e80aeb807bc39",
+        "android_client_info": {
+          "package_name": "com.my.etender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928092404540-et52tjhd3iklpf5g7ddn9eoj8gt8m415.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHNWUSiUepxBhtZzKDxGPyc5Uk9bEjE6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928092404540-et52tjhd3iklpf5g7ddn9eoj8gt8m415.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

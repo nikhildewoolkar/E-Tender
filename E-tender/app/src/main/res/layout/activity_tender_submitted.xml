@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/true_tick"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="150dp"
+        android:textSize="38sp"
+        android:textColor="#0009ff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtview"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:text="TENDER APPLICATION SUBMITTED SUCCESSFULLY."
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtview"
+        android:id="@+id/showresbutton"
+        android:background="@drawable/btn_back"
+        android:textColor="#FFF"
+        android:layout_marginTop="200dp"
+        android:padding="5dp"
+        android:layout_marginLeft="250dp"
+        android:text="See results"/>
+
+</RelativeLayout>

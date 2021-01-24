@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ETender</string>
+    <string name="true_tick">\u2713</string>
+    <string name="title_activity_tender">Tender</string>
+</resources>

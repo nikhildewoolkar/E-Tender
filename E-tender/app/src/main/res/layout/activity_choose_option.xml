@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooseOption">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:hint="Select a choice"
+        android:textSize="24sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/opt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="260dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_back"
+        android:text="See categories"
+        android:padding="2dp"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/opt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opt1"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_back"
+        android:text="Fill Application form"
+        android:padding="2dp"
+        android:textColor="#FFF"/>
+
+
+    <Button
+        android:id="@+id/opt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opt2"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="260dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_back"
+        android:text="See Results"
+        android:padding="2dp"
+        android:textColor="#FFF"/>
+
+</RelativeLayout>
